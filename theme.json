@@ -1,0 +1,309 @@
+{
+    "_comment": "aliceADV 用户配置。所有尺寸/位置均为相对值(0~1)，相对于 screen 的目标高宽，构建时翻译为百分比。这是用户自定义内容，模板(core/)不会写死默认。",
+    "screen": {
+        "aspect": "16:9",
+        "designWidth": 1920,
+        "designHeight": 1080,
+        "overflowColor": "#0d0d10"
+    },
+    "fonts": {
+        "text": {
+            "family": "SourceHanSansLite",
+            "src": "fonts/SourceHanSansLite.ttf",
+            "fallbacks": "\"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif"
+        },
+        "interface": {
+            "family": "SourceHanSansLite",
+            "src": "fonts/SourceHanSansLite.ttf",
+            "fallbacks": "\"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif"
+        },
+        "title": {
+            "family": "SourceHanSansLite",
+            "src": "fonts/SourceHanSansLite.ttf",
+            "fallbacks": "\"PingFang SC\", \"Microsoft YaHei\", \"Noto Sans CJK SC\", sans-serif"
+        },
+        "system": "system-ui, -apple-system, \"PingFang SC\", \"Microsoft YaHei\", sans-serif"
+    },
+    "colors": {
+        "_comment": "移植自 demo gui.rpy：accent=#000000 idle=#707070 idleSmall=#606060 hover=#000000 selected=#555555 text=#404040",
+        "accent": "#000000",
+        "accentDeep": "#333333",
+        "idle": "#707070",
+        "idleSmall": "#606060",
+        "hover": "#000000",
+        "selected": "#555555",
+        "insensitive": "#707070",
+        "text": "#404040",
+        "interface": "#404040",
+        "paper": "#FAF8F0",
+        "paperDeep": "#E8E2D0",
+        "muted": "#666666",
+        "hoverMuted": "#999999"
+    },
+    "sizes": {
+        "text": 33,
+        "name": 45,
+        "interface": 33,
+        "label": 28,
+        "notify": 18,
+        "title": 56,
+        "choice": 33,
+        "slot": 18,
+        "pageHeading": 56,
+        "sectionHeading": 28
+    },
+    "frame": {
+        "borders": [
+            15,
+            15,
+            15,
+            15
+        ],
+        "confirmBorders": [
+            60,
+            60,
+            60,
+            60
+        ],
+        "tile": false
+    },
+    "button": {
+        "borders": [
+            10,
+            10,
+            10,
+            10
+        ],
+        "tile": true,
+        "textIdle": "#5C5757",
+        "textHover": "#3284D6",
+        "textSelected": "#3B5998",
+        "width": null,
+        "height": 64
+    },
+    "choice": {
+        "borders": [
+            10,
+            10,
+            10,
+            10
+        ],
+        "idleColor": "#5C5757",
+        "hoverColor": "#3284D6"
+    },
+    "slot": {
+        "width": 414,
+        "height": 309,
+        "borders": [
+            15,
+            15,
+            15,
+            15
+        ],
+        "cols": 3,
+        "rows": 2
+    },
+    "thumb": {
+        "width": 384,
+        "height": 216
+    },
+    "slider": {
+        "size": 64,
+        "tile": true,
+        "borders": [
+            6,
+            6,
+            6,
+            6
+        ]
+    },
+    "scrollbar": {
+        "size": 24,
+        "tile": true,
+        "borders": [
+            6,
+            10,
+            6,
+            10
+        ],
+        "unscrollable": "hide"
+    },
+    "layout": {
+        "dialogue": {
+            "_comment": "由 core/tools/gui2theme.py 从 gui.rpy 自动换算",
+            "left": 0.0,
+            "bottom": 0.0,
+            "width": 1.0,
+            "height": 0.257407,
+            "padX": "20.9375%",
+            "padTop": "75px",
+            "padBottom": "0.5em",
+            "justify": "flex-start",
+            "textAlign": "left"
+        },
+        "name": {
+            "_comment": "由 core/tools/gui2theme.py 从 gui.rpy 自动换算",
+            "left": "18.7500%",
+            "top": "0.0000%",
+            "align": "left"
+        },
+        "sprite": {
+            "_comment": "Ren'Py show X at left/center/right 的默认变换 yalign=1.0（贴底），无需缩放",
+            "bottom": "0%",
+            "height": "auto"
+        },
+        "nvl": {
+            "_comment": "由 core/tools/gui2theme.py 从 gui.rpy 自动换算",
+            "left": "18.7500%",
+            "width": "60.9375%",
+            "lineGap": "15px",
+            "justify": "center",
+            "textAlign": "left"
+        },
+        "choice": {
+            "left": 0.1,
+            "top": 0.26,
+            "width": 0.617188,
+            "gap": "33px",
+            "maxWidth": "61.7188%",
+            "_comment": "由 core/tools/gui2theme.py 从 gui.rpy 自动换算"
+        },
+        "toolbar": {
+            "height": "6.5em",
+            "gap": "2em"
+        },
+        "_comment": "本段由 core/tools/gui2theme.py 从 gui.rpy 换算生成"
+    },
+    "panel": {
+        "_comment": "游戏内浮层面板（暂停菜单）。buttons 控制按钮顺序；本游戏不含章节选择/画廊，故移除。side 控制停靠方向（left/right）。",
+        "side": "right",
+        "buttons": [
+            "save",
+            "load",
+            "settings",
+            "about",
+            "title",
+            "back"
+        ]
+    },
+    "notifyYpos": 68,
+    "skipYpos": 15,
+    "info": {
+        "name": "无法校准少女",
+        "version": "0.1",
+        "engine": "aliceADV-v0.1"
+    },
+    "about": "1. 游戏简介(Game Synopsis)\n\n核心概念与故事背景：\n\n《无法校准少女》是一款女同性恋向心理恐怖恋爱视觉小说。\n\n“在一切都在往下坠的时候，那个双手可及的脸颊微红的少女，到底是浮木还是更残酷的深渊。”\n\n你将扮演主角，一个能看到■■■的高二女生友子。在她的世界逐渐崩塌腐烂的时候，遇到了四个性格完全不同的女孩。然后根据玩家在剧情里选择靠近谁、信任谁、拥抱谁，会走向完全不同的结局。\n\n\n2. 团队与致谢 (Credits & Team)\n\n编剧、美术、程序：栗飴すない\n音乐：来自 pixabay 的免费素材\n\n\n3. 法律与版权信息 (Legal & Copyright)\n\n本游戏《无法校准少女》著作权及相关知识产权归作者栗飴すない独家所有。未经授权，不得复制、传播、修改、再发行或商业化利用。\n\n禁止直接使用本游戏内实际立绘、背景、CG、UI 文件作为其它独立游戏作品的素材。基于本作角色、世界观的同人图、同人文、视频等创作是被允许的。\n\n4. 问题反馈与联系\n\nbilibili：@栗飴すない  UID:3706986262694258\n小红书：@栗飴すない  27733832336",
+    "sidebar": [
+        "history",
+        "save",
+        "load",
+        "settings",
+        "about",
+        "back"
+    ],
+    "pages": {
+        "title": {
+            "layout": "custom",
+            "background": "gui/main_menu.png",
+            "showName": false,
+            "showVersion": false,
+            "customButtons": [
+                {
+                    "action": "start",
+                    "left": 0.02,
+                    "top": 0.57,
+                    "width": 0.22,
+                    "height": 0.1
+                },
+                {
+                    "action": "load",
+                    "left": 0.02,
+                    "top": 0.83,
+                    "width": 0.2,
+                    "height": 0.1
+                },
+                {
+                    "action": "help",
+                    "left": 0.78,
+                    "top": 0.04,
+                    "width": 0.12,
+                    "height": 0.08
+                },
+                {
+                    "action": "quit",
+                    "left": 0.82,
+                    "top": 0.14,
+                    "width": 0.1,
+                    "height": 0.07
+                },
+                {
+                    "action": "about",
+                    "left": 0.8,
+                    "top": 0.3,
+                    "width": 0.12,
+                    "height": 0.08
+                },
+                {
+                    "action": "settings",
+                    "left": 0.76,
+                    "top": 0.72,
+                    "width": 0.2,
+                    "height": 0.1
+                }
+            ]
+        },
+        "save": {
+            "background": "gui/game_menu.png",
+            "title": "保存",
+            "titleEn": "Save",
+            "slotRows": 2,
+            "slotCols": 3,
+            "autoSlots": 9
+        },
+        "load": {
+            "background": "gui/game_menu.png",
+            "title": "读档",
+            "titleEn": "Load",
+            "slotRows": 2,
+            "slotCols": 3
+        },
+        "settings": {
+            "background": "gui/game_menu.png",
+            "title": "设置",
+            "titleEn": "Preferences"
+        },
+        "chapters": {
+            "background": "gui/game_menu.png",
+            "title": "章节选择",
+            "titleEn": "Chapters"
+        },
+        "branches": {
+            "background": "gui/game_menu.png",
+            "title": "剧情分支",
+            "titleEn": "Branches"
+        },
+        "stage": {
+            "background": "images/bg/roof.png",
+            "toolbar": [
+                "back",
+                "history",
+                "skip",
+                "auto",
+                "save",
+                "qsave",
+                "qload",
+                "menu"
+            ]
+        },
+        "gallery": {
+            "background": "gui/game_menu.png",
+            "title": "画廊",
+            "titleEn": "Gallery",
+            "cols": 4
+        },
+        "about": {
+            "background": "gui/main_menu.png"
+        }
+    }
+}

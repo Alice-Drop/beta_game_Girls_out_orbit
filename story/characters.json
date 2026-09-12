@@ -1,0 +1,135 @@
+{
+  "role1": {
+    "name": "友子",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/tomoko_tb.png",
+    "sprites": {
+      "h2": "images/char/role1/h2.png",
+      "s1_1": "images/char/role1/s1_1.png",
+      "q1": "images/char/role1/q1.png",
+      "h1": "images/char/role1/h1.png",
+      "n": "images/char/role1/n.png",
+      "l1": "images/char/role1/l1.png",
+      "h1_1": "images/char/role1/h1_1.png",
+      "s1": "images/char/role1/s1.png"
+    }
+  },
+  "role2": {
+    "name": "白玲",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/rei_tb.png",
+    "sprites": {
+      "n": "images/char/role2/n.png"
+    }
+  },
+  "role3": {
+    "name": "依可",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/yorika_tb.png",
+    "sprites": {
+      "h1": "images/char/role3/h1.png",
+      "h2": "images/char/role3/h2.png",
+      "q1": "images/char/role3/q1.png",
+      "l3": "images/char/role3/l3.png",
+      "l2": "images/char/role3/l2.png",
+      "l1": "images/char/role3/l1.png",
+      "s1": "images/char/role3/s1.png"
+    }
+  },
+  "role4": {
+    "name": "英凛",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/eirin_tb.png",
+    "sprites": {
+      "l1_1": "images/char/role4/l1_1.png",
+      "s1": "images/char/role4/s1.png",
+      "n": "images/char/role4/n.png",
+      "a1": "images/char/role4/a1.png",
+      "l1": "images/char/role4/l1.png"
+    }
+  },
+  "role5": {
+    "name": "绘茜",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/akane_tb.png",
+    "sprites": {
+      "h2": "images/char/role5/h2.png",
+      "n": "images/char/role5/n.png",
+      "h1": "images/char/role5/h1.png",
+      "l1": "images/char/role5/l1.png"
+    }
+  },
+  "role6": {
+    "name": "桃",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/momo_tb.png",
+    "sprites": {
+      "s1": "images/char/role6/s1.png",
+      "n": "images/char/role6/n.png",
+      "a1": "images/char/role6/a1.png",
+      "h2": "images/char/role6/h2.png",
+      "h1_1": "images/char/role6/h1_1.png",
+      "q1": "images/char/role6/q1.png",
+      "h3": "images/char/role6/h3.png",
+      "h1": "images/char/role6/h1.png"
+    }
+  },
+  "role7": {
+    "name": "",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/tmkt_tb.png"
+  },
+  "role8": {
+    "name": "白玲t",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/reit_tb.png"
+  },
+  "role9": {
+    "name": "依可t",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/yrkt_tb.png"
+  },
+  "role10": {
+    "name": "",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/eirint_tb.png"
+  },
+  "role11": {
+    "name": "绘茜t",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/akanet_tb.png"
+  },
+  "role12": {
+    "name": "桃t",
+    "color": "#6E5F59",
+    "textbox": "gui/textbox/mmt_tb.png"
+  },
+  "role13": {
+    "name": "班%#蛀*壬",
+    "color": "#6E5F59"
+  },
+  "role14": {
+    "name": "少女",
+    "color": "#6E5F59"
+  },
+  "role15": {
+    "name": "朋友A",
+    "color": "#6E5F59"
+  },
+  "role16": {
+    "name": "朋友B",
+    "color": "#6E5F59"
+  },
+  "role100": {
+    "name": "鼠奈",
+    "color": "#6E5F59"
+  },
+  "narrator_nvl": {
+    "name": "",
+    "color": null
+  },
+  "narrator_adv": {
+    "name": "",
+    "color": null
+  }
+}

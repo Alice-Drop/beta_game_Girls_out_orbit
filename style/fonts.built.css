@@ -1,0 +1,11 @@
+/* aliceADV 构建产物：由 theme.json fonts 配置生成的 @font-face 声明。
+   字体文件来源于工程 fonts/ 目录，构建时复制到 dist/web/fonts/。
+   请勿手改，改 theme.json 后重新 build。 */
+/* text */
+@font-face {
+  font-family: "SourceHanSansLite";
+  src: url("../fonts/SourceHanSansLite.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

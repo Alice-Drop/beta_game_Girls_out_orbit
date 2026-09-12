@@ -1,0 +1,78 @@
+/* aliceADV 构建产物：由 theme.json 翻译生成的 CSS 变量。请勿手改，改 theme.json 后重新 build。 */
+:root {
+  --size-text: calc(var(--design-w) * 33 / 1920);
+  --size-name: calc(var(--design-w) * 45 / 1920);
+  --size-interface: calc(var(--design-w) * 33 / 1920);
+  --size-label: calc(var(--design-w) * 28 / 1920);
+  --size-notify: calc(var(--design-w) * 18 / 1920);
+  --size-title: calc(var(--design-w) * 56 / 1920);
+  --size-choice: calc(var(--design-w) * 33 / 1920);
+  --size-slot: calc(var(--design-w) * 18 / 1920);
+  --size-pageHeading: calc(var(--design-w) * 56 / 1920);
+  --size-sectionHeading: calc(var(--design-w) * 28 / 1920);
+  --color-accent: #000000;
+  --color-accentDeep: #333333;
+  --color-idle: #707070;
+  --color-idleSmall: #606060;
+  --color-hover: #000000;
+  --color-selected: #555555;
+  --color-insensitive: #707070;
+  --color-text: #404040;
+  --color-interface: #404040;
+  --color-paper: #FAF8F0;
+  --color-paperDeep: #E8E2D0;
+  --color-muted: #666666;
+  --color-hoverMuted: #999999;
+  --font-text: "SourceHanSansLite", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --font-interface: "SourceHanSansLite", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --font-title: "SourceHanSansLite", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --font-system: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --aspect: 16 / 9;
+  --design-w: 1920px;
+  --design-w-px: 1920px;
+  --design-h: 1080px;
+  --design-h-px: 1080px;
+  --overflow-color: #0d0d10;
+  --slot-cols: 3;
+  --slot-aspect: 414 / 309;
+  --notify-ypos: 68;
+  --skip-ypos: 15;
+  --dialogue-left: 0%;
+  --dialogue-bottom: 0%;
+  --dialogue-width: 100%;
+  --dialogue-height: 25.74%;
+  --dialogue-pad-x: 20.9375%;
+  --dialogue-pad-left: 20.9375%;
+  --dialogue-pad-right: 20.9375%;
+  --dialogue-pad-top: 75px;
+  --dialogue-pad-bottom: 0.5em;
+  --dialogue-justify: flex-start;
+  --dialogue-text-align: left;
+  --name-left: 18.7500%;
+  --name-top: 0.0000%;
+  --sprite-bottom: 0%;
+  --sprite-height: auto;
+  --nvl-left: 18.7500%;
+  --nvl-width: 60.9375%;
+  --nvl-line-gap: 15px;
+  --nvl-justify: center;
+  --nvl-text-align: left;
+  --choice-left: 10%;
+  --choice-top: 26%;
+  --choice-width: 61.72%;
+  --choice-gap: 33px;
+  --choice-max-width: 61.7188%;
+  --toolbar-height: 6.5em;
+  --toolbar-gap: 2em;
+}
+
+/* 游戏内暂停菜单停靠方向 / 窗口尺寸：由 theme.json panel.side / panel.width / panel.height 控制。
+   请勿手改，改 theme.json 后重新 build。 */
+.ingame-menu {
+  right: 0;
+  left: auto;
+  width: calc(var(--design-w) * 0.260417);
+  min-width: calc(var(--design-w) * 0.260417);
+  top: 0;
+  bottom: 0;
+}
