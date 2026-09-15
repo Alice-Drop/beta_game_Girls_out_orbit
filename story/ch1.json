@@ -1,0 +1,7615 @@
+{
+  "id": "ch1",
+  "title": "脱出轨道的女孩们",
+  "start": "start",
+  "segments": {
+    "start": [
+      {
+        "cmd": "bg",
+        "src": "images/bg/claim1.png",
+        "transition": "fade"
+      },
+      {
+        "cmd": "say",
+        "char": "role100",
+        "text": "请确认"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/claim2.png",
+        "transition": "fade"
+      },
+      {
+        "cmd": "say",
+        "char": "role100",
+        "text": "请确认"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/claim3.png",
+        "transition": "fade"
+      },
+      {
+        "cmd": "say",
+        "char": "role100",
+        "text": "请确认"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g1.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g1_1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/fsm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "教室风扇上，盘踞着卷着尾巴的粉色猫咪"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/fsm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/fsm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我的朋友"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/fsm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/fsm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "就算不搭理我也是我的朋友"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/fsm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/fsm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "外面怎么变化"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我的心情怎么糟糕"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/fsm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/fsm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "它的尾巴就像一个粉色棒棒糖"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "如此稳稳地，一成不变地"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "盘踞在这个风扇上"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/fsm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/fsm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "随着风扇的转动"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那只猫像UFO一样在教室天花板漂浮着"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/fsm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/fsm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "它漂浮的身体"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "在夕阳中闪着微微的眩光"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/fsm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/fsm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我需要它的那一天"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "就是它出现的那一天"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/fsm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/fsm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "冰冷的教室被夕阳浸透"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "如同一杯冰镇的橘子汽水"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/fsm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/fsm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "也许橘子汽水也会让人喝醉吧"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g1_2.png"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/fsm.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "有时候，我会站去教室窗边"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一个人看着"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "外面的居民楼被每天一成不变又似乎千变万化的夕阳浸透"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "楼里的居民现在在干什么呢？"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "他们过着什么样的生活呢？"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我就这样想着"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "静静的站在窗边"
+      },
+      {
+        "cmd": "sound",
+        "src": "audio/s3.mp3"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "有一户人家似乎挂了玻璃风铃"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我会听到若隐若现的风铃声"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这个声音打散在黄昏的空气里"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "就如同是橘子汽水里清爽的气泡"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "而有一些东西"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "也会随着这个风铃声出现"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那是一个舞女的影子，一个剪影"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "如同断掉的枝条一般，在远处居民楼的楼顶上随风舞动着"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "风铃的声音是它跳舞的配乐"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "它总是随着风铃的声音以极大的幅度摇摆着"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "像是一块要被风吹飞的破布"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 尽管看起来有点可怕"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 但是那一成不变的稳定，不被那样■■的生活所扰"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "每天只是稳定地出现，起舞"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "不会用那样的眼神看我……"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "也是……我的朋友"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 话说回来，我经常站在这样夕阳的窗子前等一个人"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " ——那是我在这个■■的地方，唯一的——"
+      },
+      {
+        "cmd": "stop",
+        "what": "sound"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g2.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g2_1.png"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " 抱歉抱歉，刚刚忙着做作业就有点晚了！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " 没关系的，一起走吧。"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " 你书包上的新挂件好可爱！是一只米黄色的仓鼠呢"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " *轻轻抚摸"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " 好喜欢这个毛茸茸的触感"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "我摸它的时候总是会想起摸你的外套"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "sound",
+        "src": "audio/s4.mp3"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "a1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " ！！我才不是什么大毛茸茸！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " 你的外套还是米黄色的"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g2_2.png"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " 今天的饭堂好多人呀"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "排队排的脚都酸了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " 总算是吃上饭了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " 今天的午饭是炸鸡腿耶"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " 刚上完下午最后一节自习，好饿"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " 那我们多吃点"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "嗯嗯！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " *轻轻蹭蹭桃的外套"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g2_3.png"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " 哇，那是一只黄白相间的小猫，在夹竹桃花丛里面！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " 好可爱，它在向着我们走过来欸"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " *蹲下抚摸小猫"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " 它在绕着我转圈"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " 它喜欢我"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " 呜呜，我也想被它喜欢"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "可能因为我的外套比较暖和吧"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " 毕竟猫是一种怕冷的动物"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "话说小桃，我从高一开始就想问你了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "为什么你一年四季都穿着这件外套呢？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "会不会觉得，很热呀"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "也许只是因为"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "那单纯是我的一部分……？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "narrate",
+        "text": " 小猫依靠在桃的身边，呼噜噜地，看起来很舒服"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " *蹲下伸手抚摸小猫"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "a1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " 你摸到我的外套了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "a1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " 诶，我以为这是小猫"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g2_4.png"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": " 我要回去赶数学作业了，先一步上楼啦！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "好喔，拜拜！"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g1.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g2_5.png"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 不知不觉间，我走到了教学楼的背面"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 这是一片空旷的地方，有一面贴着各种画的墙和一片荒废的草地，通常也没有什么人"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 学校对这片区域也疏于管理"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "上一个季度展览在架空层大厅的那些画作和海报"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "都会被转移到这个地方来，随意地贴在墙上"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一季一季，一年一年"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "不断地累积着"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "高三16班每一期的海报"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "都看起来有一种朦胧的写实"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那是用淡淡的彩铅勾勒着的"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "极其准确的形态和轮廓"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "有一季度，画了学校附近居民楼的景观"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那个地方是友子的班级出去的走廊那里可以看到的地方"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那户人家的风车从一开始就竖在那里，慢慢地随着阳光褪色"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "高三16班的海报，一如既往地把那片区域描绘得如此精准"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "包括是风车上那个有污渍的叶片，也用淡淡的彩铅精准地描绘了出来"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这面画墙是被我看了无数遍的地方"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "离开画墙，我开始漫无目的地闲逛"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 逛着逛着我突然注意到了些什么"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/h2.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g2_6.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 在教学楼后侧靠墙荒废的水槽里，好像有什么东西"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那是一具干枯的青蛙的身体"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "张大着嘴，正在对着已经很久没有出水的废弃水龙头"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 但它还正在动着"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 它的眼睛一睁一闭，它张大的嘴一呼一吸"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 那明明是一只青蛙，但却沾满了废弃水池里干涸的泥土，全身开裂，如同一只癞蛤蟆"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 它的嘴依旧一呼一吸，一呼一吸"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 它沉重的眼皮抬起来"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……那是一双老人的眼睛"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 我似乎意识到了什么，往后退了两步"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 也许……这个水龙头还能用呢……？"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 我怀着这样的心态，鼓起勇气伸出手，想要打开水龙头"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "就在这一刹那"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我的手不知道为什么抖了一下"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 我不小心碰到了 那个东西"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw2.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 而就在这一刻，那个东西开始分崩离析"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw2.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sltw2.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "它身上本来就脆弱的黄土，如同沙子一般散去"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "最后化成土黄色的一小点，从这个世界上彻底的消失了……"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sltw2.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 果然，就正如我所想的一样"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 对不起"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 对不起"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g3.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g3_1.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "晚自习，其实我根本不知道这么做的意义是什么"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "按部就班地吃完饭后，只是刚好是这样的日程罢了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "头顶那盏灯晃眼地照着"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我不再抬头"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g3_2.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "课室最后一排角落的插线板里，闪着和平时不一样的电火花"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一只蓝色的小蝾螈从里面爬了出来"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "它的尾巴竟然是一个插头"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我紧张地收起了自己的手"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "好可爱"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这只蝾螈的身体光滑，接近半透明"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那应该是像凝胶一样脆弱的物质"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "也许哪一天它会爬进充电头里，再也不出来了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "也许哪一天……它会在我的失手下……灰飞烟灭"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我悄悄地从柜桶里拿出了一个有点磨损的素描本"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 我的笔在素描纸上沙沙作响"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "忽然脑海里闪回了这样的画面"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "高二的第一天，新的教室，新的同学，新的班级"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "那时如同习惯一般无意识地拿出画本"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "忽然有什么东西像是在教室中间炸开一样"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "你当这里是你高一吗？"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "坐在那个位置的，你！叫友子，对吧？"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "班会课画画想给谁看？"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "难道说"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "……"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "是为了让我评价一下，是吗"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "班主任抢走了画本，粗暴地翻开"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "一文不值。"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "小孩乱涂鸦一样。"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "完全看不懂你想表达什么。"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "也没有任何一个人能看得懂吧"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "你看"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "班主任把画本放到了投影仪下面"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "画本上面正画着那些可爱的原创角色"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "课室下面的那群第一次见面的新同学纷纷骚动起来"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "而明明上一秒还在令友子满心欢喜的原创角色"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "一遍一遍被所有人的目光处以■■"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "一遍一遍被所有人的目光处以■■"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "从那之后，在这个班级……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 也许此刻的我是应该写着数学大题的"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "但是，但是……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我看了一眼窗外，确定没有班主任的身影"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "然后把本子藏得更隐蔽了一些"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我记录的动作一直在继续"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "记录那些转瞬即逝的■■ 朋友"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "如果不这么做"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我没办法安心下来"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 晚自习结束了。"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 班级里的住宿生们开心地说笑着，三三两两地走着回宿舍"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 看来我得晚一点再出发"
+      },
+      {
+        "cmd": "sound",
+        "src": "audio/menu0.mp3"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 走到课室的窗边，我想深吸一口窗外的空气，屏蔽掉教室里那些声音"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g3_3.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/clwn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这时，我发现窗帘上有一些亮晶晶的东西"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/clwn.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/clwn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 涣散的视线一下就聚焦了"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/clwn.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/clwn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 那是许多闪着银光的，像蜗牛壳一样的东西，现在正附着在教室灰色的窗帘上"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/clwn.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/clwn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 仔细一看，它还有透明的蜗牛头以及触角"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/clwn.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/clwn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 它们成群结队，正在缓慢地在窗帘上爬"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/clwn.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/clwn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 最近季节进入了雨季，看来那些动物也会受到影响呢"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/clwn.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/clwn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 也许它们会更喜欢被雨淋湿的窗帘？"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/clwn.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/clwn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "或者说是雨淋在窗帘上……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "生出了这样的生物？"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g3_3_1.png"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/clwn.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那些在楼下成群结队移动着的"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "头顶黑压压一片的生物"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "却是在这雨季中"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "躲入伞下"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g4.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g3_4.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "晚上躺在宿舍的床上"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一直睡不着觉"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "外面的天空发出了雷的闷响"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "前几天被堵在走廊里，强行被剪短的刘海，现在黏糊糊地贴在额头上"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "然后雨如约而至，淅淅沥沥地落到了地面上"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "自从雨季到来之后，宿舍狭窄的床铺，越来越像一口沉入水中的棺材"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "闷热的水汽涌入宿舍"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "宛如置身海底"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 忽然，我看到了真的水母触须"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 我猛然抬头朝天花板看去"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 那里的确有一只巨大的半透明水母漂浮在天花板上"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "巨大的半透明身体"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "飘飘摇摇地覆盖在宿舍的天花板上"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "外面的雨势已经变成了倾盆大雨"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "整个世界真的就如同被水淹没一样"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那只水母的触须"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "像是被下雨刮的风所吹动，又像只是在水中的自由摆动"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "在房间的空气中轻轻摇摆"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……这里也许真的是海底吧"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "如果是这样就好了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "其他什么都不重要了"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那是一把巨伞"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那也是在漂浮着的庇护所"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "完全彻底的温柔"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 在雨气中"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我的睡意渐渐浮了上来"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/sm.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " ……"
+      },
+      {
+        "cmd": "stop",
+        "what": "sound"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g3.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g4_1.png"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/sm.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "午休，一切如常"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "只是这个教室风扇有点吵"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/h1.mp3"
+      },
+      {
+        "cmd": "sound",
+        "src": "audio/h3.mp3"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……！"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那是……什么……？"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 从天花板上掉下来的■■"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……为什么"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "呃……"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "唔……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "咳咳……"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我午饭好像吃的有点多了……"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一切都■■了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一切都■■了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一切都■■了"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "谁来救救我……"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "哈啊……哈啊……"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "不要……不行了。。。"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/lr.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "强烈的恶心感袭来，我如同逃窜一般离开了教室，要冲向厕所"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g4_2.png"
+      },
+      {
+        "cmd": "stop",
+        "what": "sound"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/lr.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 走廊上的阳光一如既往地照着，把白色的地砖和铁栏杆照出刺眼的反光"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g6.mp3"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "略微感觉到了走廊上阳光的物理温度，我的恶心感消退了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "可是我依旧做不到再回到那个地方"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我没办法再看到……"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g4_3.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 回过神来，我已经走过了空中连廊，来到了实验楼"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 或许是因为没有人的缘故吧，实验楼这个地方总是令我平静"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 长长的走廊，洁白的瓷砖"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 实验室里干净整洁地摆放着的仪器"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 以及空气中像被化学药剂凝固的寂静"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 走廊外面能看到那几栋城中村里的居民楼，也在柔和的阳光下午睡着"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 甚至像是要闻到居民楼楼顶晾晒着的白色床单上的皂香"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 这时我看到了，一些和平时不一样的东西"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 通体雪白"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 在正午的阳光下，"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 反射着近乎刺眼的光"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 像是存在于与实验室走廊完全不同的另一个世界"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一个……女孩？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 她正在实验楼走廊的一角，眼神望向那边的居民楼"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 我的心里感到一阵莫名的宽慰"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "似乎仅仅只是因为她的存在"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 纯白色的影子，比我见过的任何■■都好看"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这时"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "她忽然回头"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "看见了我"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那双眼睛就像是被白色云层遮盖下的浅蓝色水滴"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "在午后阳光的眩光里，闪着细微的光"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这是第一次"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "第一次我被我所■■之物注视"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 我也被……看见了？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 那个白色的女孩只是把头转了回去，她的发丝在空气中微微打了个转"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "show",
+        "char": "role2",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 接下来会发生什么事情，我完全没办法预料"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g5_1.png"
+      },
+      {
+        "cmd": "hide",
+        "char": "role2"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 于是我步履匆匆地离开了实验楼"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 我准备回课室了。"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "午休时刻的走廊正被刺眼的阳光懒懒地照着"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这时"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我的面前忽然出现了——"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/bzr.mp3"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "谁让你出来的？！"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "narrate",
+        "text": "班主任的声音大且尖锐，穿透了整个午休的走廊"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "narrate",
+        "text": "教室里那些趴在桌上的黑色影子们，，纷纷抬起了头"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "你这样的人不配待在#\\%^$一班，你知道吗？"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "友子！你真是……把我害得^好惨啊。"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr1.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "你是觉得，你在班\\%里还有资$格任^&(^(性？"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr1.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr2.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "\\%￥■■\\%■■■■*&*￥#■■##￥#￥■■■■■\\%■■■■■■"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr2.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr2.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "#￥！￥@\\%■■■■■■#■■■##***（#@\\%@■■■■"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr2.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr2.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "$^*(^\\%(*^(*^\\%&^#$\\%#&\\%$^*\\%(&^(*^*(&$^\\%$\\%^#\\%$#$^&\\%*&\\%&^$^&$"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr2.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr2.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "$^\\%#&^$*^\\%(^*(^\\%##$!@!#$@##^\\%\\%*&^(*&(**^\\%^#$@$!$&*&*(^&$@(&&(&&#@!"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr2.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr2.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "…我到底欠了你什么啊"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr2.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/bzr2.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "你什么时候才能像个正常人一样？"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/bzr2.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "……"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g6_0.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " ……"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " ……"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " ……"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": " ……"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g7.mp3"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "醒醒，醒醒，是我呀！"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g6_1.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "……你还好吗？"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "你的脸色看起来好差呀"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "绝对，绝对不是什么都没发生的，对吧"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "视线模糊了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "只是为了活着"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "坚持到现在"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "很辛苦呢"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "总算是触摸到了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "温暖的羊绒外套"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "以及那外套透出的体温"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "呜呜……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "桃轻轻把外套盖在我身上"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "柔软的外套，像一层拥抱大地的雪"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "事到如今也是我最温柔的归宿"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "唯一的"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "归宿"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "我知道你现在在经历什么的"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "很不容易，每一步都走得很不容易。"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "不管怎么样，我会永远站在你这边"
+      },
+      {
+        "cmd": "narrate",
+        "text": "桃轻轻抚摸着友子的背"
+      },
+      {
+        "cmd": "narrate",
+        "text": "……~"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g6_2.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "刚哭过的眼睛，看东西有种像鱼鳞一样的干涩"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "所有的东西都覆盖了一层干涸的眼泪"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "干涸的眼泪凝结成鱼鳞"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/dgy.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "鱼"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/dgy.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/dgy.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "教室的灯管里出现了鱼"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/dgy.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/dgy.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那是一种银色的鱼，通体长着像眼泪一样银灰色的鳞"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/dgy.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/dgy.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "它们在教室的灯管里游动着"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/dgy.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/dgy.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "大家都在低头写着作业，果然注意到那些鱼的人只有我"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/dgy.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/dgy.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "银灰色的，小小的，成群结队的，游动着，留下闪着光的拖尾"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/dgy.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/dgy.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "突然间"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我刚刚不小心流到桃外套上的那一滴眼泪"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "浮现在了我的脑海里"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/dgy.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/dgy.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "游动着留下闪着光的痕迹"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g8.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g7_1.png"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/dgy.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这节课是体育课。"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "令人厌恶的阳光依旧毫不留情地刺伤着皮肤"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "■■们■■地拿起自己的篮球或者球拍，三三两两去了操场"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "好■■啊。"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "不管是在阳光直射下还是在树荫中"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那个声音都不会停下来"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "不论如何，都不会与我有关"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "为什么会■的这么■■呢？"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "为什么会■的这么■■呢？"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "明明没有伤害到我"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "但是头痛却停不下来"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "被■■在■了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "被■■在■了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "似乎这个脑袋也感觉到这颗头和这个躯体不该在此处存在"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "如同惩罚一般痛了起来"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "s1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "老师……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "s1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "我现在头很痛，我可以先去医务室吗？"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "我现在头很痛，我可以先去医务室吗？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "……"
+      },
+      {
+        "cmd": "nvlclear"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "高二一班  友子"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "头痛"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "请假三节课"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "去向：医务室"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g9.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g7_3.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "躺在医务室洁白的床上，淡淡的消毒水气味萦绕在周围"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "操场那的声音如同隔了一层毛玻璃，变得极不真切"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "日影随着时间的流逝慢慢偏移"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "在医务室的白色床上形成了一个窗子形状的光斑"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "医务室的另一侧，有一个身材很娇小的女孩子躺在床上"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "她扎着双马尾，看起来甚至会令人怀疑是不是高中生"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "就在阳光从对面窗户透过来的时候，和她对视上了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那是一双很圆的粉色大眼睛，滴溜溜地看着我的眼睛"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "像一个刚认识世界的孩子"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "眼睛……看起来像夜晚的海"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "蓝色的眼睛，看起来就像夜晚的海，有一种潮湿的味道"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "深蓝色的夜空，白色的月光，红色的海边生锈铁链"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "平静的，一望无际的海水"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "往下坠的，更深处的沉溺"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "欸？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "l1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "啊！对不起，一不小心就说出口了，我还以为我还在床上做梦呢"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "l1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "……原来这里是现实吗？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "l1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "*点头"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "l3"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "呜呜……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "l3"
+      },
+      {
+        "cmd": "narrate",
+        "text": "少女捂住了脸，看起来很尴尬"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "l3"
+      },
+      {
+        "cmd": "narrate",
+        "text": "但是又悄悄地用目光看向友子的眼睛"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "学姐，蓝色的眼睛真的很好。"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "……很漂亮"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "其实从那时起，我就已经很久没有正眼看别人了吧"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "漂亮吗？虽然我好像从来没有发现"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "但那个女孩子眼睛里的光确确实实在闪烁着"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "谢谢……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "尽管有种别样的开心，但话题不知道怎么继续下去"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "于是我和她继续无话，坐在医务室的两张床上"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "与室内的日光，思绪共同偏移"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "不知不觉三节课过去了，也到了我要离开医务室的时候"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "有话想说，但却感觉如鲠在喉"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "可能依旧是，这样软弱的选择才是我会去做的吧"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这么说着，我填好了医务室的表格离开时间那一栏，然后迈开步子"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g10.mp3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "学姐！我想给你吃我的糖！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "少女手里拿着一颗蓝色的薄荷糖，站在我后面叫住了我"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "或许吃完学姐的头痛会好很多"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "谢谢……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我接过糖果，糖果上还有她细微的体温"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "果然今天不能这么就结束了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "l1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "我想知道……你的名字"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "l1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "啊，问出来了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role3",
+        "text": "我叫依可"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role3",
+        "text": "我是……高一四班的"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "也许在这之前她可能就知道我的名字，光是说出来就如此■■"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "我叫……友子，我在高二一班"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role3",
+        "text": "友子学姐，现在我们算是朋友吗？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "show",
+        "char": "role3",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "手里那颗糖还带着温度，我没办法说不是"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g11.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g8_1.png"
+      },
+      {
+        "cmd": "hide",
+        "char": "role3"
+      },
+      {
+        "cmd": "narrate",
+        "text": "课桌上，有闪闪亮亮的折叠着的东西，那是一种有镭射塑料的特殊彩纸"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " ……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "虽然和桃不在一个班级"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "但是不知道为什么今天特别想念着桃"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "于是"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " 一艘一艘闪着光的纸船"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "从书桌的海面上开出来"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "尽管"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "身处这么无可适从的课室"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "假如想到那件米黄色的外套"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " ……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "柔软的，温暖的"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " ……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一切的不安就会着陆"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一切的不安就会着陆"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一切的不安就会着陆"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": " ……"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g1.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g9_0.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一下课，大家都一起说说笑笑地冲了出去"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我还是等一会吧"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这么想着我走到了窗边"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g9_1.png"
+      },
+      {
+        "cmd": "sound",
+        "src": "audio/s3.mp3"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "远处的居民楼顶上那个跳舞的影子又一如既往地出现了"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "今天的风有点大"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "风铃的声音显得格外急切"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那个影子也以一种夸张的幅度摇摆着"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "它不会折断吧？"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这么想着"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我有点担心的看着窗外"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "被夕阳浸透的老旧居楼顶上"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "它好像随时都要掉下去"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "掉下去的话"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那个东西会失去生命吗？"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "如果掉下去了"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "看到这个过程的我也许会被诅咒"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我看到了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我却什么都没做"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "但是什么都没做"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那是我的错"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "时间过了好一会"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "背后依旧没有传来一个有羊绒外套袖子的手搭过来的质感"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我转头去看教室墙上的时钟"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "竟然已经下课15分钟了"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "对了，桃这节课是体育课"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "应该会直接去饭堂"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "她可能已经在饭堂等了我15分钟"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/wny.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我顾不上什么了，急匆匆地赶到饭堂"
+      },
+      {
+        "cmd": "stop",
+        "what": "sound"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g12.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g9_2.png"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/wny.png"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "友子，你来啦！我们都在等着你呢"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "narrate",
+        "text": "桃和朋友们坐在饭堂靠近门口的显眼位置上"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "narrate",
+        "text": "学校饭堂亮堂的光照在她们脸上"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "narrate",
+        "text": "饭菜的味道也格外新鲜"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "好！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "narrate",
+        "text": "友子小跑着坐了过去"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role15",
+        "text": "隔壁班的那个男生，他今天找我借笔了欸！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "你看把你美的"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role16",
+        "text": "嗯哼哼……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h1_1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "诶——你看，这个鸡扒的颜色，像不像那个男生的球服"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h1_1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role15",
+        "text": "把它给我吃！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h1_1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role16",
+        "text": "真是一对苦命鸳鸯"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "h1_1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "right",
+        "sprite": "h3"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "坏心情消散了很多"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一年前的我，每天都像今天这样毫无顾虑地笑着的"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "或许是吧。"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g9_4.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "晚自习的时候，插座里又有蓝色的蝾螈爪子露了出来"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "渐渐地，有那样的感觉"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "其实这温暖并不能改变什么"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g2.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g10_1.png"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry.png"
+      },
+      {
+        "cmd": "narrate",
+        "text": "到了周六放学的时候了"
+      },
+      {
+        "cmd": "narrate",
+        "text": "今天的阳光特别好"
+      },
+      {
+        "cmd": "narrate",
+        "text": "学校后花园旁边的小道上，斑驳的树影在摇晃"
+      },
+      {
+        "cmd": "narrate",
+        "text": "友子和桃不是那么想马上回去"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g10_2.png"
+      },
+      {
+        "cmd": "narrate",
+        "text": "就一起在学校小道旁的石桌椅上坐下了"
+      },
+      {
+        "cmd": "narrate",
+        "text": "刚从学校小卖部买回来的两瓶冰红茶，附着了一层薄薄的冷凝水滴"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "友子，我想看那个"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "……？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "画本？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "嗯"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "最近我换了一本新的画本"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "不是之前那本了"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "诶……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "就算这样我也想看"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "友子把那本画本从书包里拿了出来"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "桃接了过去"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "一页一页翻着"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "粉色猫咪    黄昏的教室风扇上    2023.3.26"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "舞女剪影    教室窗外的居民楼楼顶    2023.4.2"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "插座蝾螈    晚自习教室最后一排角落的那个插座    2023.4.19"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "你是真的能看到这些东西吗？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "那是……记录"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "挺可爱的呀"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "会觉得这些很奇怪吗？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "嗯，不会的。挺可爱的。"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "不过我还是更喜欢你之前画的那些呀"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "那些可爱的oc歌姬，比如那个仓鼠耳朵的"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "好久没看你画了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "不知道为什么，我提不起任何兴致画那个"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "校道上学生们渐渐都走出了校校园，空了下来"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "空气在正午的阳光中翻腾，看不到一丝灰尘"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "就像我脑子里找不到一丝灵感"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "一块拼图从头顶的树上掉了下来"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g10_3.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/ptn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "抬头一看，那是一只颜色丰富到可怕的鸟"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/ptn.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/ptn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "嘎！"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/ptn.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/ptn.png",
+        "at": "center"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "它发出像锯木头一样沙哑的声音"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/ptn.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我低头把它掉下来的拼图碎片捡起来"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那片东西被我的手一碰到就化成尘土散去了"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g10_4.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "果然……"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g10_5.png"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "哎，你在地上捡什么呀？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role6",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role6",
+        "text": "地上什么都没有呀"
+      },
+      {
+        "cmd": "hide",
+        "char": "role6"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "嗯"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "没什么"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "走在前面的桃又转头瞥了友子一眼"
+      },
+      {
+        "cmd": "narrate",
+        "text": "像是在看着什么陌生的东西"
+      },
+      {
+        "cmd": "narrate",
+        "text": "像是在看着什么陌生的东西"
+      },
+      {
+        "cmd": "narrate",
+        "text": "……"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g13.mp3"
+      },
+      {
+        "cmd": "sound",
+        "src": "audio/s1.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g11_0.png"
+      },
+      {
+        "cmd": "narrate",
+        "text": "“如果有需要，请敲门”"
+      },
+      {
+        "cmd": "narrate",
+        "text": "心理咨询室——"
+      },
+      {
+        "cmd": "narrate",
+        "text": "闲逛的时候，不知不觉就走到这里了"
+      },
+      {
+        "cmd": "narrate",
+        "text": "这里是学校的一个角落"
+      },
+      {
+        "cmd": "narrate",
+        "text": "走进一条被树影环绕着的，有点绿色倒影的走廊"
+      },
+      {
+        "cmd": "narrate",
+        "text": "就会到达那扇门前"
+      },
+      {
+        "cmd": "stop",
+        "what": "sound"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g11_1.png"
+      },
+      {
+        "cmd": "narrate",
+        "text": "把门推开，里面的家具以非常温柔的颜色与棱角陈列着"
+      },
+      {
+        "cmd": "narrate",
+        "text": "在那个被窗户阳光投射下的沙发上"
+      },
+      {
+        "cmd": "narrate",
+        "text": "坐着一个女生"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "narrate",
+        "text": "红色发带与长长的马尾从她后脑勺垂下"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "narrate",
+        "text": "头发也呈现出一种近乎纯粹的黑色，如同着装一样一丝不苟"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "narrate",
+        "text": "学校里任何一个人都能认得出来这个人是谁"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "narrate",
+        "text": "经常上台发言的那个人，经常代表学校参加各种活动的那个人"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "narrate",
+        "text": "高三级的年级第一——"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "narrate",
+        "text": "英凛"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "a1"
+      },
+      {
+        "cmd": "say",
+        "char": "role4",
+        "text": "呃……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "a1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "看到进来的人，英凛愣住了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "narrate",
+        "text": "她把头低下来，侧发挡住了脸，快步小跑了出去"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "诶……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "友子站在门口呆住了"
+      },
+      {
+        "cmd": "narrate",
+        "text": "她没注意到，跑出去的英凛偷偷回头看了一眼"
+      },
+      {
+        "cmd": "narrate",
+        "text": "友子的星星发夹此刻正在英凛的眼里反光"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g14.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g11_2.png"
+      },
+      {
+        "cmd": "narrate",
+        "text": "校内有高三级的统考，高二一班也会参与统考和排名"
+      },
+      {
+        "cmd": "nvlclear"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "毕业班期中统考"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "化学"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "1 高二一班 友子 99"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "2 高三一班 英凛 99"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "3 ■■■  98"
+      },
+      {
+        "cmd": "narrate",
+        "mode": "nvl",
+        "text": "……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "居然"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "超常发挥了。"
+      },
+      {
+        "cmd": "narrate",
+        "text": "因为是高二一班的"
+      },
+      {
+        "cmd": "narrate",
+        "text": "和高三同分的时候"
+      },
+      {
+        "cmd": "narrate",
+        "text": "高二一班的人会排在前面"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "这时友子注意到了站在成绩板前的另一个人"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "红色发带，长长的马尾，乌黑的头发"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "那个人的视线好像不自觉的在看向这边"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "她的视线又飘忽回成绩版，但不像是落在自己的名字上"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "她的拳头微微地握紧"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "然后又半松不松地松开"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role10",
+        "text": "旁边的那个人"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role10",
+        "text": "名字置于我之上的人"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role10",
+        "text": "看到…我在那里的人"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role10",
+        "text": "我不能做点什么"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "say",
+        "char": "role10",
+        "text": "我想做点什么"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "l1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role10",
+        "text": "可是……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "l1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role10",
+        "text": "头晕"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "l1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role10",
+        "text": "眼前的事物开始冒出星星了"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "l1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role10",
+        "text": "那不像是我的声音"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "l1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role4",
+        "text": "友子……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "l1_1"
+      },
+      {
+        "cmd": "say",
+        "char": "role4",
+        "text": "要不要……一起学化学？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "嗯？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "可以呀！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "我这周五下课之后应该有空"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "在空教室里可以吗？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "show",
+        "char": "role4",
+        "at": "center",
+        "sprite": "l1"
+      },
+      {
+        "cmd": "say",
+        "char": "role4",
+        "text": "好……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role4"
+      },
+      {
+        "cmd": "narrate",
+        "text": "对话结束，英凛像逃跑一样离开了这里"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/h2.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g12_1.png"
+      },
+      {
+        "cmd": "narrate",
+        "text": "这天友子突然发现自己的画本不见了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "会被落在什么地方呢？"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我把它落在走廊的栏杆边上了吗？"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "也许我把它落在宿舍了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "也有可能它在饭堂"
+      },
+      {
+        "cmd": "narrate",
+        "text": "那天友子焦急地在校园里四处寻找"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g12_2.png"
+      },
+      {
+        "cmd": "sound",
+        "src": "audio/s5.mp3"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "忽然在经过教室办公室的时候，我看到了那个画本"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "正 大 大 地 摊    开 在 班   主 任 的   桌 面"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "正 大 大 地 摊    开 在 班   主 任 的   桌 面"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "正 大 大 地 摊    开 在 班   主 任 的   桌 面"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "正 大 大 地 摊    开 在 班   主 任 的   桌 面"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "正 大 大 地 摊    开 在 班   主 任 的   桌 面"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "这时我想起了"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g12_3.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "今天在厕所里听到的对话"
+      },
+      {
+        "cmd": "sound",
+        "src": "audio/s2.mp3"
+      },
+      {
+        "cmd": "narrate",
+        "text": "……居然还有一本……猎奇……"
+      },
+      {
+        "cmd": "narrate",
+        "text": "太抽象了……"
+      },
+      {
+        "cmd": "narrate",
+        "text": "……这种人还待在……就应该换我……我才应该待在…………"
+      },
+      {
+        "cmd": "narrate",
+        "text": "…xxx你不是一班的吗？……怎么样？"
+      },
+      {
+        "cmd": "narrate",
+        "text": "简直是太丢脸了"
+      },
+      {
+        "cmd": "narrate",
+        "text": "……我也没想到…………"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "视野在慢慢地融化旋转"
+      },
+      {
+        "cmd": "stop",
+        "what": "sound"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g12_4.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我不记得我是怎么走回班级的"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "每节课讲了什么我也不记得了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "直到听到了那一句"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/bzr.mp3"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "果然，例行搜查柜桶是没错的"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "有些人真是屡教不改"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "不让你画画是为你好"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "画画是没有出息的"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "尤其是"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "……"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "画这些像邪教一样的东西"
+      },
+      {
+        "cmd": "say",
+        "char": "role13",
+        "text": "不过某些人本来就是怪胎，这也没办法吧。"
+      },
+      {
+        "cmd": "narrate",
+        "text": "讲台底下陷入了像冰水一样的寂静"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g6.mp3"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g13_1.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "虽然不是周五"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "虽然我知道，空教室里没有人在等着我"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "但是我还是来了空教室"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "最近去找桃，她总是说要加练数学大题"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "所以我不知道要去哪里了"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "可是今天的空教室里有人"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那是一个有着一头栗色卷发的女生，头上还有一朵特别的洋牡丹"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "她一个人坐在日光下一张靠边的桌椅上"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "安静地低着头，正在拿着一块木质画板画画"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "虽然有几分面熟，但不记得在本年级中见过"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "空教室位于属于高二级的楼层里，最高三的那一层"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "有时候高三级的人也会来用这间空教室，因为属于他们的楼层里没有空教室"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "那应该是高三的学姐吧"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "不想打扰她，我还是静静地去空教室后排找个位置坐下吧"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "可是"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "经过的时候，却突然看到"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g13_2.png"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "她画板上那幅画着公园景色的画作"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "和平时在学校宣传墙上看到的画风一模一样"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "居然是……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "高三16班的那个……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我的脚步被钉在原地"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "想发出声音"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "想伸出手"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "但是……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "画画……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我真的可以去喜欢吗？"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……这样的我"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "憧憬的人在眼前……可是"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "…怎样都说不出口"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "同学……？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "果然，站在人家旁边很没礼貌吧"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "n"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "同学"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "可以帮我在这幅画上添加主角吗？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "诶？！"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "我……我吗？"
+      },
+      {
+        "cmd": "music",
+        "src": "audio/g15.mp3"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "嗯"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "少女把手上的铅笔递给了友子"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "画纸上用淡淡彩铅描绘的公园景色"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "仔细一看"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "那好像是这座城市的东湖公园五拱桥"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "无数次欣赏的画作"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "此时以最新鲜的形式呈现在我眼前"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "center",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "而现在，笔竟然在我手上"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "我真的可以吗？……我要画什么？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "画你喜欢的，什么都可以"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "小动物可以吗？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "当然可以"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry2.png",
+        "at": "center"
+      },
+      {
+        "cmd": "sound",
+        "src": "audio/s6.mp3"
+      },
+      {
+        "cmd": "narrate",
+        "text": "友子手上的笔小心翼翼地在下午的阳光中移动着"
+      },
+      {
+        "cmd": "narrate",
+        "text": "友子手上的笔小心翼翼地在下午的阳光中移动着"
+      },
+      {
+        "cmd": "narrate",
+        "text": "……"
+      },
+      {
+        "cmd": "narrate",
+        "text": "……"
+      },
+      {
+        "cmd": "stop",
+        "what": "sound"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry2.png"
+      },
+      {
+        "cmd": "show",
+        "src": "images/char/czry2.png",
+        "at": "center"
+      },
+      {
+        "cmd": "narrate",
+        "text": "一只小蝾螈居然出现在湖面上"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/g13_1.png"
+      },
+      {
+        "cmd": "hide",
+        "src": "images/char/czry2.png"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "好可爱"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "这是蝾螈吗？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "嗯嗯"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "它的外鳃怎么是闪电"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "因为……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "那■是■■中的蝾螈"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "其实它是住在插座里的小精灵"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "l1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "你叫什么名字？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "l1"
+      },
+      {
+        "cmd": "say",
+        "char": "role14",
+        "text": "我……好喜欢你画的小精灵"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "友子，我在高二一班"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "希望她没听过这个名字"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role5",
+        "text": "我叫绘茜"
+      },
+      {
+        "cmd": "say",
+        "char": "role5",
+        "text": "是高三16班的"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "果然是高三16班"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role5",
+        "text": "……那个"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role5",
+        "text": "友子还有更多的小精灵吗？"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role5",
+        "text": "我还想看"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "q1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "真的吗"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我想了想那本画本"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "今天刚被班主任摸过"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "还留下了几个黑黑的手指印"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "可是我还是从包里把它掏了出来"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "交给了绘茜"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "绘茜一页一页地翻着"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "眼神里充满了欣赏"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "舞女剪影，风扇猫，插座蝾螈……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "像是被夕阳笼罩着"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "narrate",
+        "text": "在绘茜赞许的眼神中镀上一层金光"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role5",
+        "text": "……"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role5",
+        "text": "好喜欢"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h2"
+      },
+      {
+        "cmd": "say",
+        "char": "role5",
+        "text": "如果有新的我还想看到"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "s1"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role1",
+        "text": "我会来找你的"
+      },
+      {
+        "cmd": "hide",
+        "char": "role1"
+      },
+      {
+        "cmd": "hide",
+        "char": "role5"
+      },
+      {
+        "cmd": "show",
+        "char": "role1",
+        "at": "left",
+        "sprite": "n"
+      },
+      {
+        "cmd": "show",
+        "char": "role5",
+        "at": "right",
+        "sprite": "h1"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "其实……"
+      },
+      {
+        "cmd": "say",
+        "char": "role7",
+        "text": "我也在偷偷憧憬你"
+      },
+      {
+        "cmd": "bg",
+        "src": "images/bg/claim4.png",
+        "transition": "fade"
+      },
+      {
+        "cmd": "wait",
+        "seconds": 5.0
+      },
+      {
+        "cmd": "say",
+        "char": "role100",
+        "text": "吱吱吱！！！"
+      },
+      {
+        "cmd": "say",
+        "char": "role100",
+        "text": "谢谢你！"
+      },
+      {
+        "cmd": "say",
+        "char": "role100",
+        "text": "我喜欢你❤️"
+      }
+    ]
+  }
+}

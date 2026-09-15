@@ -1,0 +1,16 @@
+{
+  "chapters": [
+    {
+      "idx": "01",
+      "title": "脱出轨道的女孩们",
+      "desc": "移植自 Ren'Py demo：girls_out_of_orbit",
+      "locked": false,
+      "script": "story/ch1.json"
+    }
+  ],
+  "playOrder": [
+    "ch1"
+  ],
+  "branches": [],
+  "gallery": []
+}
