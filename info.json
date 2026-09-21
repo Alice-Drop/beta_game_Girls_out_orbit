@@ -1,6 +1,15 @@
 {
   "name": "无法校准少女",
-  "version": "0.1",
+  "version": "0.2",
   "autoSave": true,
-  "quickSave": true
+  "quickSave": true,
+  "preload": {
+    "boot": "title",
+    "runtime": [
+      "page",
+      "predict"
+    ],
+    "predictLookahead": 20
+  },
+  "changeLog": "升级到v0.3.0引擎"
 }

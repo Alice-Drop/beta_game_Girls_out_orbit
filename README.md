@@ -31,7 +31,7 @@ python3 -m http.server -d dist/web 8000
 
 ```
 girls_orbit_project/
-├── info.json            # 游戏名 / 版本 / 引擎版本
+├── info.json            # 游戏名 / 版本 / 存档开关
 ├── theme.json          # 样式与界面文本（移植自 demo 的 gui.rpy）
 ├── about.txt
 ├── story/
@@ -41,8 +41,7 @@ girls_orbit_project/
 ├── gui/                # 界面图片
 ├── images/             # 背景(bg/)与立绘(char/)
 ├── audio/              # 音乐与音效
-├── fonts/              # SourceHanSansLite.ttf
-└── documents/          # 剧本格式说明.md / 定义.md
+└── fonts/              # SourceHanSansLite.ttf
 ```
 
 ## 剧情与角色
@@ -60,5 +59,9 @@ girls_orbit_project/
 
 ## 相关文档
 
-- 指令手册（全部指令用法）：`../documents/指令.md`
-- 剧本格式精确说明：本工程 `documents/剧本格式`
+引擎文档不随工程分发，统一在引擎仓库 `docs/` 下维护并发布为文档站：
+
+- 文档站：<https://alice-drop.github.io/aliceADV/>
+- 指令手册：`../游戏引擎/docs/指令.md`（本机仓库路径）
+- 剧本格式精确说明：`../游戏引擎/docs/剧本格式说明.md`
+- `theme.json` / `info.json` 配置：`../游戏引擎/docs/样式控制.md` / `../游戏引擎/docs/信息配置.md`

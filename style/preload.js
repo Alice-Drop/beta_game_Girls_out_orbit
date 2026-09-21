@@ -75,6 +75,29 @@
 
     /* ---------- 资源收集 ---------- */
 
+    /* 引擎 UI 外壳图（文本框背景 / 面板边框 / 按钮背景 / 画廊占位图）：
+     * 这些图为引擎自带、几乎每个页面都用得到。它们的路径已从「硬编码在 CSS 的 url(...)」
+     * 改为 theme.json 的配置字段（dialog.background、frame.background、button.idle|hover、
+     * choice.idle|hover、thumb.placeholder）——与 theme.js 写入 --gui-* 变量的数据源完全一致，
+     * 因此这里直接读同一份配置，不再有「CSS 有图、预加载器看不见」的盲区。
+     * 启动（boot）时无条件预载，避免首屏文本框/面板/按钮未加载而空白或闪一下。 */
+    function collectChrome(theme) {
+        theme = theme || global.__THEME__ || {};
+        var out = [];
+        function add(p) { if (p) out.push(resolveAsset(p)); }
+        var dlg = theme.dialog || {};
+        add(dlg.background);
+        var fr = theme.frame || {};
+        add(fr.background);
+        var btn = theme.button || {};
+        add(btn.idle); add(btn.hover);
+        var ch = theme.choice || {};
+        add(ch.idle); add(ch.hover);
+        var th = theme.thumb || {};
+        add(th.placeholder);
+        return out;
+    }
+
     /* 首页素材：pages.title.background + customButtons 的 image/hover。
      * 与 theme.js buildTitlePage 读取的字段一一对应。 */
     function collectTitle(theme) {
@@ -235,6 +258,8 @@
         if (strat.boot === "title+story") {
             urls = urls.concat(collectStory(theme, scripts));
         }
+        // UI 外壳图（文本框/边框/按钮）：任何 boot 策略下都始终需要，随手一并预载
+        urls = urls.concat(collectChrome(theme));
         // 去重
         var uniq = [];
         var seen = Object.create(null);
@@ -325,9 +350,11 @@
         var h = collectHorizon(script, seg, idx, strat.predictLookahead);
         var uniq = [];
         var seen = Object.create(null);
-        h.sfx.concat(h.voice, h.bg, h.char).forEach(function (u) {
-            if (u && !seen[u]) { seen[u] = 1; uniq.push(u); }
-        });
+        function push(u) { if (u && !seen[u]) { seen[u] = 1; uniq.push(u); } }
+        h.sfx.concat(h.voice, h.bg, h.char).forEach(push);
+        // UI 外壳图（文本框/边框/按钮）若尚未被 boot 预载（如 boot="none"），开场时一并补上；
+        // 已缓存的直接跳过，避免只为此弹一次遮罩。
+        collectChrome().forEach(function (u) { if (u && !cache[u]) push(u); });
         if (!uniq.length) return; // 无资源可预载则不弹遮罩，避免无意义闪一下
         showMask();
         await Promise.race([
@@ -347,11 +374,14 @@
         return sp ? sprites[sp] : null;
     }
 
+    /* 只读访问已预取资源集合（key 为 resolveAsset 后的路径）。供调试与自动化验证用。 */
+    function getCache() { return cache; }
+
     global.AliceADVPreload = {
         boot: boot, showMask: showMask, hideMask: hideMask, getStrategy: getStrategy,
         hookPage: hookPage, hookPredict: hookPredict, enterStage: enterStage,
-        preloadAll: preloadAll,
+        preloadAll: preloadAll, getCache: getCache,
         collectTitle: collectTitle, collectSystem: collectSystem, collectStory: collectStory,
-        collectPageAssets: collectPageAssets
+        collectPageAssets: collectPageAssets, collectChrome: collectChrome
     };
 })(window);
