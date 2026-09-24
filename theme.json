@@ -202,7 +202,7 @@
   "skipYpos": 15,
   "info": {
     "name": "无法校准少女",
-    "version": "0.2",
+    "version": "0.2.1",
     "autoSave": true,
     "quickSave": true,
     "preload": {
@@ -211,9 +211,38 @@
         "page",
         "predict"
       ],
-      "predictLookahead": 20
+      "timeout": 12000,
+      "onTimeout": "hint",
+      "slowSpeedKBps": 250,
+      "lookahead": {
+        "windowSeconds": 30,
+        "horizonSeconds": 180,
+        "maxInstructions": 600,
+        "defaultLineSeconds": 3,
+        "autoLineSeconds": 2.6,
+        "skipLineSeconds": 0.18
+      },
+      "chapter": {
+        "scope": "current",
+        "preload": "adaptive"
+      },
+      "stage": {
+        "preludeSeconds": 60,
+        "preludeImagesOnly": true,
+        "preludeBudgetSeconds": 8
+      },
+      "fastForward": {
+        "skipVoice": true
+      },
+      "fallback": {
+        "default": "degrade",
+        "image": "block",
+        "audio": "degrade",
+        "allowSkipWait": true,
+        "maskDelayMs": 150
+      }
     },
-    "changeLog": "升级到v0.3.0引擎"
+    "changeLog": "升级到v0.4.0引擎，改善了性能"
   },
   "about": "1. 游戏简介(Game Synopsis)\n\n核心概念与故事背景：\n\n《无法校准少女》是一款女同性恋向心理恐怖恋爱视觉小说。\n\n“在一切都在往下坠的时候，那个双手可及的脸颊微红的少女，到底是浮木还是更残酷的深渊。”\n\n你将扮演主角，一个能看到■■■的高二女生友子。在她的世界逐渐崩塌腐烂的时候，遇到了四个性格完全不同的女孩。然后根据玩家在剧情里选择靠近谁、信任谁、拥抱谁，会走向完全不同的结局。\n\n\n2. 团队与致谢 (Credits & Team)\n\n编剧、美术、程序：栗飴すない\n音乐：来自 pixabay 的免费素材\n\n\n3. 法律与版权信息 (Legal & Copyright)\n\n本游戏《无法校准少女》著作权及相关知识产权归作者栗飴すない独家所有。未经授权，不得复制、传播、修改、再发行或商业化利用。\n\n禁止直接使用本游戏内实际立绘、背景、CG、UI 文件作为其它独立游戏作品的素材。基于本作角色、世界观的同人图、同人文、视频等创作是被允许的。\n\n4. 问题反馈与联系\n\nbilibili：@栗飴すない  UID:3706986262694258\n小红书：@栗飴すない  27733832336",
   "sidebar": [

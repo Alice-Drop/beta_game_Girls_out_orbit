@@ -10,6 +10,9 @@
         "transition": "fade"
       },
       {
+        "cmd": "pause"
+      },
+      {
         "cmd": "say",
         "char": "role100",
         "text": "请确认"
@@ -18,6 +21,9 @@
         "cmd": "bg",
         "src": "images/bg/claim2.png",
         "transition": "fade"
+      },
+      {
+        "cmd": "pause"
       },
       {
         "cmd": "say",
@@ -30,6 +36,9 @@
         "transition": "fade"
       },
       {
+        "cmd": "pause"
+      },
+      {
         "cmd": "say",
         "char": "role100",
         "text": "请确认"
@@ -40,7 +49,8 @@
       },
       {
         "cmd": "bg",
-        "src": "images/bg/g1_1.png"
+        "src": "images/bg/g1_1.png",
+        "transition": "fade"
       },
       {
         "cmd": "show",
@@ -7585,6 +7595,14 @@
         "cmd": "say",
         "char": "role7",
         "text": "我也在偷偷憧憬你"
+      },
+      {
+        "cmd": "hide",
+        "transition": "fade"
+      },
+      {
+        "cmd": "wait",
+        "seconds": 0.45
       },
       {
         "cmd": "bg",
