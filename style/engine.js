@@ -13,8 +13,9 @@
         "page_stage", "page_gallery", "page_about"
     ];
 
-    const DESIGN_W = 1920;
-    const DESIGN_H = 1080;
+    /* 设计分辨率**不在这里写死**：它来自 theme.json 的 screen.designWidth / designHeight，
+     * 由 theme.js 写入 CSS 变量 --design-w / --design-h，并作用在 #stage 的 width/height 上。
+     * fitStage() 直接量 #stage 的布局尺寸即可，这样设计分辨率只有一份来源。 */
 
     const state = {
         currentPage: "page_title",
@@ -69,8 +70,12 @@
                 global.AliceADVScript.exit();
             }
         }
-        // 离开舞台时收起浮层
-        if (prev === "page_stage" && id !== "page_stage") closeOverlays();
+        // 离开舞台时收起浮层与通知条
+        // （通知条本来 1.6s 后自己消失；若这期间又回到舞台，会看到上一条消息的残影）
+        if (prev === "page_stage" && id !== "page_stage") {
+            closeOverlays();
+            clearNotify();
+        }
     }
 
     function goBack() {
@@ -92,6 +97,46 @@
         showPopup("popup_saveToast");
         if (saveToastTimer) clearTimeout(saveToastTimer);
         saveToastTimer = setTimeout(() => hidePopup("popup_saveToast"), 1600);
+    }
+
+    /* ---------- 通知条 / 快进指示条（对应 Ren'Py notify / skip_indicator） ----------
+     * 这两个元素由 theme.js 的 buildStagePage() 随舞台骨架建好，这里**不创建 DOM**：
+     * 舞台重建（换主题 / 重新 buildAll）会清空 #page_stage，自建的节点留不下来；
+     * 骨架每次重建都会带上它们，所以只在既有节点上切 .is-active 与文字最稳。
+     * 纵向位置由 theme.json 的 notifyYpos / skipYpos 决定（CSS 读 --notify-ypos / --skip-ypos）。
+     */
+    let notifyTimer = null;
+
+    /* 弹一条会在 ms（默认 1600）后自动消失的通知。循环调用时以最后一次为准（不排队）。 */
+    function notify(text, ms) {
+        const host = document.querySelector("#page_stage .notify");
+        const inner = host && host.querySelector(".notify__inner");
+        const msg = (text == null) ? "" : String(text);
+        if (!inner || !msg) return false;   // 无元素（舞台尚未搭好）或空文案 → 不显示空衬底
+        inner.textContent = msg;
+        host.classList.add("is-active");
+        if (notifyTimer) clearTimeout(notifyTimer);
+        notifyTimer = setTimeout(
+            () => host.classList.remove("is-active"),
+            (typeof ms === "number" && ms > 0) ? ms : 1600
+        );
+        return true;
+    }
+
+    function clearNotify() {
+        if (notifyTimer) { clearTimeout(notifyTimer); notifyTimer = null; }
+        const host = document.querySelector("#page_stage .notify");
+        if (host) host.classList.remove("is-active");
+    }
+
+    /* 快进指示条的显隐是 state.skip 的纯函数。唯一调用方是 script.js 的
+     * syncPlaybackMode()（setSkip / setAuto / stopPlayback 都汇到那里），
+     * 因此这里不判断播放状态、也不自己维护标志位。 */
+    function setSkipIndicator(on) {
+        const host = document.querySelector("#page_stage .skip-indicator");
+        if (!host) return false;
+        host.classList.toggle("is-active", !!on);
+        return true;
     }
 
     /* ---------- 1. 统一按钮事件代理 ---------- */
@@ -167,7 +212,11 @@
                 if (ok) showSaveToast();
             } else if (state.currentPage === "page_load") {
                 const data = (script && script.getSave) ? script.getSave(kind, idx) : null;
-                if (data && script) script.load(kind, idx);
+                // load() 是 async，返回是否真的读成功 —— 只有成功才给通知。
+                // 若无条件通知，则「关掉自动存档后点空槽」这类失败也会弹一条成功提示。
+                if (data && script) {
+                    script.load(kind, idx).then(ok => { if (ok) notify("已读取存档"); });
+                }
             }
             return;
         }
@@ -215,7 +264,10 @@
             case "save":  showPage("page_save");     break;
             case "load":  showPage("page_load");     break;
             case "qsave": if (script) { const ok = script.saveQuick(); if (ok) showSaveToast(); } break;
-            case "qload": if (script) script.loadQuick(); break;
+            case "qload":
+                // 与存档页读取同一套判据：loadQuick() 返回是否读成功（无快存 / 快存已关 = false）
+                if (script) script.loadQuick().then(ok => { if (ok) notify("已读取快速存档"); });
+                break;
         }
     }
 
@@ -235,14 +287,19 @@
     }
 
     /* ---------- 0. 舞台等比缩放 ----------
-     * #stage 固定 1920×1080 设计分辨率，按窗口大小整体缩放，
-     * 保持 16:9 比例并居中，溢出区域由 #game-frame 的背景色填充。
+     * #stage 的宽高就是 theme.json 的 screen.designWidth × designHeight
+     * （theme.js 写 --design-w / --design-h，base.css 里 #stage 用这两个变量定尺寸）。
+     * 这里量它的布局尺寸作为缩放基准，不再各存一份 1920×1080 常量——
+     * 否则作者把 designWidth 改成 1280 时，CSS 侧按 1280 排、这里却按 1920 缩，画面会整体放大并被裁掉。
+     * offsetWidth/offsetHeight 取的是布局尺寸（不含 transform），正是我们要的基准。
      */
     function fitStage() {
         const frame = document.getElementById("game-frame");
         const stage = document.getElementById("stage");
         if (!frame || !stage) return;
-        const scale = Math.min(frame.clientWidth / DESIGN_W, frame.clientHeight / DESIGN_H);
+        const w = stage.offsetWidth || 1920;   // 兜底：主题未就绪时用引擎默认设计宽度
+        const h = stage.offsetHeight || 1080;
+        const scale = Math.min(frame.clientWidth / w, frame.clientHeight / h);
         stage.style.transform = `translate(-50%, -50%) scale(${scale})`;
     }
 
@@ -292,5 +349,13 @@
         window.addEventListener("resize", fitStage);
     }
 
-    global.AliceADVEngine = { init, showPage, goBack, showPopup, hidePopup, state };
+    global.AliceADVEngine = {
+        init, showPage, goBack, showPopup, hidePopup, state,
+        // 通知条（Ren'Py renpy.notify 的对应物）：公开给剧本 / 工程自定义 UI 调用。
+        // 位置由 theme.json 的 notifyYpos 决定。
+        notify, clearNotify,
+        // 快进指示条：由 script.js 的 syncPlaybackMode() 按 state.skip 驱动，
+        // 工程一般不必直接调用（避免出现第二个真值源）。
+        setSkipIndicator
+    };
 })(window);

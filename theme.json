@@ -1,5 +1,5 @@
 {
-  "_comment": "aliceADV 用户配置。所有尺寸/位置均为相对值(0~1)，相对于 screen 的目标高宽，构建时翻译为百分比。这是用户自定义内容，模板(core/)不会写死默认。",
+  "_comment": "aliceADV 用户配置：本文件只描述**外观与界面**（尺寸/位置/颜色/字体/图片/页面布局/按钮可见性/界面文案），以及其它文件放不下的引擎级开关；不承载游戏内容。游戏内容各有其位：游戏名与版本在 info.json，关于页正文在 about.txt，剧本在 story/，图片音频在 gui|images|audio/。所有尺寸/位置均为相对值(0~1)，相对于 screen 的目标高宽，构建时翻译为百分比。",
   "screen": {
     "aspect": "16:9",
     "designWidth": 1920,
@@ -149,10 +149,10 @@
       "textAlign": "left"
     },
     "name": {
+      "_comment": "由 aliceadv gui2theme 从 gui.rpy 自动换算（anchor = gui.name_xalign）",
       "left": "18.7500%",
       "top": "0.0000%",
-      "_comment": "由 core/tools/gui2theme.py 从 gui.rpy 自动换算",
-      "align": "left"
+      "anchor": 0.0
     },
     "sprite": {
       "bottom": "0%",
@@ -200,53 +200,13 @@
   },
   "notifyYpos": 68,
   "skipYpos": 15,
-  "info": {
-    "name": "无法校准少女",
-    "version": "0.2.1",
-    "autoSave": true,
-    "quickSave": true,
-    "preload": {
-      "boot": "title",
-      "runtime": [
-        "page",
-        "predict"
-      ],
-      "timeout": 12000,
-      "onTimeout": "hint",
-      "slowSpeedKBps": 250,
-      "lookahead": {
-        "windowSeconds": 30,
-        "horizonSeconds": 180,
-        "maxInstructions": 600,
-        "defaultLineSeconds": 3,
-        "autoLineSeconds": 2.6,
-        "skipLineSeconds": 0.18
-      },
-      "chapter": {
-        "scope": "current",
-        "preload": "adaptive"
-      },
-      "stage": {
-        "preludeSeconds": 60,
-        "preludeImagesOnly": true,
-        "preludeBudgetSeconds": 8
-      },
-      "fastForward": {
-        "skipVoice": true
-      },
-      "fallback": {
-        "default": "degrade",
-        "image": "block",
-        "audio": "degrade",
-        "allowSkipWait": true,
-        "maskDelayMs": 150
-      }
-    },
-    "changeLog": "升级到v0.4.0引擎，改善了性能"
+  "gameMenu": {
+    "_comment": "游戏内菜单页（sidebar 里的各页：保存/读取/设置/章节选择/剧情分支/画廊/关于）的共享外观默认值。backgroundColor = 整页半透明衬底（铺在背景图之上、内容之下，压淡底图）；panelColor = 主内容那一整块面板的底色（略微透明，让底图淡淡透出）；sidebarButtonColor = 侧栏每个按钮各自的底色（默认纯白、完全不透明，让按钮在任意背景图上都读得清）。三个键都支持 rgba()。此处即引擎默认值（构建时与工程 theme.json 深度合并，工程没写就用这里的；写 null 表示不要该层）。单个页面可在 pages.<页>.backgroundColor / panelColor / sidebarButtonColor 里覆盖。",
+    "backgroundColor": "rgba(255, 255, 255, 0.4)",
+    "panelColor": "rgba(255, 255, 255, 0.85)",
+    "sidebarButtonColor": "#FFFFFF"
   },
-  "about": "1. 游戏简介(Game Synopsis)\n\n核心概念与故事背景：\n\n《无法校准少女》是一款女同性恋向心理恐怖恋爱视觉小说。\n\n“在一切都在往下坠的时候，那个双手可及的脸颊微红的少女，到底是浮木还是更残酷的深渊。”\n\n你将扮演主角，一个能看到■■■的高二女生友子。在她的世界逐渐崩塌腐烂的时候，遇到了四个性格完全不同的女孩。然后根据玩家在剧情里选择靠近谁、信任谁、拥抱谁，会走向完全不同的结局。\n\n\n2. 团队与致谢 (Credits & Team)\n\n编剧、美术、程序：栗飴すない\n音乐：来自 pixabay 的免费素材\n\n\n3. 法律与版权信息 (Legal & Copyright)\n\n本游戏《无法校准少女》著作权及相关知识产权归作者栗飴すない独家所有。未经授权，不得复制、传播、修改、再发行或商业化利用。\n\n禁止直接使用本游戏内实际立绘、背景、CG、UI 文件作为其它独立游戏作品的素材。基于本作角色、世界观的同人图、同人文、视频等创作是被允许的。\n\n4. 问题反馈与联系\n\nbilibili：@栗飴すない  UID:3706986262694258\n小红书：@栗飴すない  27733832336",
   "sidebar": [
-    "history",
     "save",
     "load",
     "settings",
@@ -316,32 +276,31 @@
       ]
     },
     "save": {
-      "background": "gui/game_menu.png",
+      "background": "gui/main_menu.png",
       "title": "保存",
       "titleEn": "Save",
       "slotRows": 2,
-      "slotCols": 3,
-      "autoSlots": 9
+      "slotCols": 3
     },
     "load": {
-      "background": "gui/game_menu.png",
-      "title": "读档",
+      "background": "gui/main_menu.png",
+      "title": "读取",
       "titleEn": "Load",
       "slotRows": 2,
       "slotCols": 3
     },
     "settings": {
-      "background": "gui/game_menu.png",
+      "background": "gui/main_menu.png",
       "title": "设置",
       "titleEn": "Preferences"
     },
     "chapters": {
-      "background": "gui/game_menu.png",
+      "background": "gui/main_menu.png",
       "title": "章节选择",
       "titleEn": "Chapters"
     },
     "branches": {
-      "background": "gui/game_menu.png",
+      "background": "gui/main_menu.png",
       "title": "剧情分支",
       "titleEn": "Branches"
     },
@@ -359,13 +318,58 @@
       ]
     },
     "gallery": {
-      "background": "gui/game_menu.png",
+      "background": "gui/main_menu.png",
       "title": "画廊",
       "titleEn": "Gallery",
       "cols": 4
     },
     "about": {
-      "background": "gui/main_menu.png"
+      "background": "gui/main_menu.png",
+      "_comment": "衬底的默认值都在顶层 gameMenu（所有菜单页共享），本页如需不同可在此覆盖 backgroundColor / panelColor / sidebarButtonColor，写 null 关闭该层。注意本页版式特殊：正文按固定栏宽排成一列，白底只包住这一列并水平居中（见 style/pages/about.css 的 .page_about 一节），panelColor 就是这张纸的底色，主内容区在本页不铺底色、纸的左右两侧直接透出 backgroundColor 那一层。想改「一行放多少字」调 about.css 的 --about-sheet-content。"
     }
+  },
+  "info": {
+    "name": "无法校准少女",
+    "version": "0.2.3",
+    "autoSave": true,
+    "quickSave": true,
+    "preload": {
+      "boot": "title",
+      "runtime": [
+        "page",
+        "predict"
+      ],
+      "timeout": 12000,
+      "onTimeout": "hint",
+      "slowSpeedKBps": 250,
+      "lookahead": {
+        "windowSeconds": 30,
+        "horizonSeconds": 180,
+        "maxInstructions": 600,
+        "defaultLineSeconds": 3,
+        "autoLineSeconds": 2.6,
+        "skipLineSeconds": 0.18
+      },
+      "chapter": {
+        "scope": "current",
+        "preload": "adaptive"
+      },
+      "stage": {
+        "preludeSeconds": 60,
+        "preludeImagesOnly": true,
+        "preludeBudgetSeconds": 8
+      },
+      "fastForward": {
+        "skipVoice": true
+      },
+      "fallback": {
+        "default": "degrade",
+        "image": "block",
+        "audio": "degrade",
+        "allowSkipWait": true,
+        "maskDelayMs": 150
+      }
+    },
+    "changeLog": "升级到v0.4.4引擎"
   }
 }
