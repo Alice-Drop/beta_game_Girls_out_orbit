@@ -234,44 +234,44 @@
         {
           "action": "start",
           "left": 0.02,
-          "top": 0.57,
+          "top": 0.47,
           "width": 0.22,
-          "height": 0.1
+          "height": 0.15
         },
         {
           "action": "load",
           "left": 0.02,
-          "top": 0.83,
-          "width": 0.2,
-          "height": 0.1
+          "top": 0.73,
+          "width": 0.1,
+          "height": 0.2
         },
         {
           "action": "help",
-          "left": 0.78,
+          "left": 0.7,
           "top": 0.04,
-          "width": 0.12,
+          "width": 0.1,
           "height": 0.08
         },
         {
           "action": "quit",
-          "left": 0.82,
+          "left": 0.85,
           "top": 0.14,
           "width": 0.1,
           "height": 0.07
         },
         {
           "action": "about",
-          "left": 0.8,
-          "top": 0.3,
-          "width": 0.12,
-          "height": 0.08
+          "left": 0.84,
+          "top": 0.28,
+          "width": 0.1,
+          "height": 0.09
         },
         {
           "action": "settings",
-          "left": 0.76,
-          "top": 0.72,
+          "left": 0.79,
+          "top": 0.7,
           "width": 0.2,
-          "height": 0.1
+          "height": 0.12
         }
       ]
     },
@@ -330,7 +330,7 @@
   },
   "info": {
     "name": "无法校准少女",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "autoSave": true,
     "quickSave": true,
     "preload": {
@@ -370,6 +370,6 @@
         "maskDelayMs": 150
       }
     },
-    "changeLog": "升级到v0.4.4引擎"
+    "changeLog": "优化首页按钮热区"
   }
 }

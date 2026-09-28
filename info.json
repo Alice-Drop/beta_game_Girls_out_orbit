@@ -1,6 +1,6 @@
 {
   "name": "无法校准少女",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "autoSave": true,
   "quickSave": true,
   "preload": {
@@ -40,5 +40,5 @@
       "maskDelayMs": 150
     }
   },
-  "changeLog": "升级到v0.4.4引擎"
+  "changeLog": "优化首页按钮热区"
 }
