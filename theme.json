@@ -370,6 +370,6 @@
         "maskDelayMs": 150
       }
     },
-    "changeLog": "紧急修复引擎返回按钮问题"
+    "changeLog": "引擎更新到v0.4.5； 更新了about文本"
   }
 }

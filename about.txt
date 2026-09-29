@@ -1,27 +1,363 @@
-1. 游戏简介(Game Synopsis)
+
+1. 游戏简介(Game Synopsis) 
 
 核心概念与故事背景：
 
-《无法校准少女》是一款女同性恋向心理恐怖恋爱视觉小说。
+《无法校准少女》是一款女同性恋向心理恐怖恋爱视觉小说
 
 “在一切都在往下坠的时候，那个双手可及的脸颊微红的少女，到底是浮木还是更残酷的深渊。”
 
 你将扮演主角，一个能看到■■■的高二女生友子。在她的世界逐渐崩塌腐烂的时候，遇到了四个性格完全不同的女孩。然后根据玩家在剧情里选择靠近谁、信任谁、拥抱谁，会走向完全不同的结局。
 
 
+
+核心玩法与体验：
+
+本作以第一人称叙述推进，是一款恋爱冒险游戏，核心机制包括：
+
+选择分支
+
+多结局
+
+好感度系统
+
+4 位可攻略角色，■ 位隐藏可攻略角色
+
+9 个结局，■ 个隐藏结局
+
+
+
+内容警示 (Content Warning)：
+
+完整版存在猎奇，过激价值观，血腥暴力，呕吐物，腐烂物，病态共依存与精神病症状的表现
+
+由于上述内容的存在，未满16岁的玩家禁止游玩
+
+在游玩途中感到不适请立即退出
+
+因本游戏引起的一切问题作者概不负责
+
+游戏里的组织和人纯属虚构，与现实中的人、组织、机构无关，如有雷同纯属巧合
+
+请谅解
+
+
+
 2. 团队与致谢 (Credits & Team)
 
+核心开发成员：
+
 编剧、美术、程序：栗飴すない
-音乐：来自 pixabay 的免费素材
+
+背景与部分怪物的模拟现实风格照片由aigc生成
+
+音乐：来自pixabay的免费素材，详情请见“第三方资源声明”
+
+
+制作工具与许可证：
+
+此网页版demo使用的引擎为 aliceADV
+
+aliceADV 基于 MIT License 开源许可证发布，
+
+详细信息请参阅：https://github.com/Alice-Drop/aliceADV?tab=MIT-1-ov-file
+
+
+特别致谢：
+
+所有参与内测给出repo的朋友
+
+愿意在pixabay提供素材的艺术家们
+
 
 
 3. 法律与版权信息 (Legal & Copyright)
 
-本游戏《无法校准少女》著作权及相关知识产权归作者栗飴すない独家所有。未经授权，不得复制、传播、修改、再发行或商业化利用。
+版权声明 (Copyright Notice)
 
-禁止直接使用本游戏内实际立绘、背景、CG、UI 文件作为其它独立游戏作品的素材。基于本作角色、世界观的同人图、同人文、视频等创作是被允许的。
+本游戏《无法校准少女》（包括但不限于其游戏代码、视觉美术、角色设计、剧情文本等所有内容）的著作权及相关知识产权均归作者 栗飴すない 独家所有，未经作者明确书面授权，任何个人或组织不得以任何形式（包括但不限于复制、传播、修改、反编译、再发行或商业化利用）对本游戏的整体或任何部分进行使用。
+
+
+关于同人二创：
+
+基于《无法校准少女》的角色、世界观创作同人图、同人文、视频等✅
+
+
+禁止直接使用素材：
+
+严禁使用本游戏内实际的立绘、背景、CG、ui文件作为其他独立游戏作品的素材
+
+禁止大规模商业化：严禁任何个人或组织（尤其是企业实体），将同人创作进行大规模的、连锁式的商品化销售（例如开线下实体店大批量贩卖周边）
+
+禁止歪曲与违法：不得创作含有违法、暴力、仇恨言论或恶意丑化游戏角色的内容
+
+
+
+第三方资源声明：
+
+使用了pixabay平台的音乐资产
+
+格式：作者名-曲名-编号.mp3
+
+31736081-people-background-noise1-33025-320954.mp3
+
+atlasaudio-piano-relaxing-510242.mp3
+
+blackpybeats-peaceful-piano-for-sleep-relax-enjoy-with-cellos-477377.mp3
+
+clavier-music-dreaming-piano-music-329668.mp3
+
+harumachimusic-walk-through-my-garden-423999.mp3
+
+leberch-deep-ocean-313741.mp3
+
+mondamusic-horror-572980.mp3
+
+mondamusic-lullaby-sleep-piano-music-529598.mp3
+
+oxidvideos-light-rain-and-distant-thunder-319234.mp3
+
+paulyudin-calm-cinematic-piano-soft-310219.mp3
+
+paulyudin-piano-music-piano-485929.mp3
+
+saturn-3-music-rockabye-baby-music-box-lullaby-loopable-527146.mp3
+
+sonican-piano-for-story-359191.mp3
+
+sonican-slow-cinematic-piano-emotional-reflections-372403.mp3
+
+tomomi_kato-improvisation_062-321045.mp3
+
+tomomi_kato-sleep-546033.mp3
+
+trenox8-dark-tension-atmosphere-307722.mp3
+
+tunetank-ambient-piano-relaxing-music-347950.mp3
+
+xtremefreddy-disturbing-glitch-monsters-1-157786.mp3
+
+wolff-sfx-wet-squelch-425547
+
+freesound_community-wind-in-the-trees-24035
+
+freesound_community-whispers-14814
+
+alex_jauk-beautiful-wind-chimes-amp-bells-ambience-2-434528
+
+floraphonic-cartoon-slap-2-189831
+
+black_kumizhi-large-reverb-impact-524486
+
+floraphonic-pencil-writing-drawing-loop-3-211894
+
+
 
 4. 问题反馈与联系
 
-bilibili：@栗飴すない  UID:3706986262694258
-小红书：@栗飴すない  27733832336
+bilibili：@栗飴すない       UID:3706986262694258
+
+小红书：@栗飴すない      27733832336
+
+玩家反馈Bug或提供建议请联系
+
+
+关于我：
+
+赛博奶茶仓鼠栗飴すない⪩. .⪨
+
+唱见，主播，画手，百合视觉小说制作者，互联网核类艺术创作者，在读女大
+
+
+
+5. 版本与更新信息 (Version & Updates)
+
+当前版本号：0.1
+
+demo
+
+
+
+
+
+ENGLISH VER:
+
+
+1. Game Synopsis
+
+Concept & Setting:
+
+Girls Out Of Orbit is a yuri psychological horror romance visual novel.
+
+“When everything is falling apart, that blushing girl within arm's reach—is she a lifeline, or a deeper abyss?”
+
+You play as Tomoko, a second-year high school girl who can see ■■■. As her world gradually crumbles and rots around her, she encounters four girls with completely different personalities. Depending on your choices in the story—whom you approach, whom you trust, whom you embrace—you will reach entirely different endings.
+
+
+Gameplay & Experience:
+
+This is a first-person narrative-driven romance adventure game featuring key mechanics such as branching paths, multiple endings, and an affection/relationship tracking system.
+
+4 romanceable characters, 
+
+■ hidden romanceable character(s), 
+
+9 endings in total, 
+
+■ hidden ending(s).
+
+
+Content Warning:
+
+The full version contains grotesque imagery, extreme value expressions, bloody violence, depictions of vomit and rotting matter, pathological codependency, and manifestations of psychiatric symptoms.
+
+Due to the above content, this game is strictly prohibited for players under the age of 16.
+
+If you feel uncomfortable at any point during gameplay, please exit immediately.
+
+The creator assumes no responsibility for any issues arising from playing this game.
+
+All organizations and characters depicted in this game are purely fictional. Any resemblance to real persons, groups, or institutions is purely coincidental.
+
+We appreciate your understanding.
+
+
+
+2. Credits & Team
+
+Core Development:
+
+Writer, Artist, Programmer: Kuriame Sunai
+
+Backgrounds and certain monster visuals are AIGC-generated photorealistic-style images.
+
+Music: Royalty-free assets from Pixabay. See “Third-Party Assets” below for details.
+
+
+
+Tools & License:
+
+This game is created using Ren'Py.
+
+Ren'Py is distributed under a number of open-source licenses, including the MIT License and the GNU Lesser General Public License (LGPL).
+
+For detailed information, please refer to:
+https://www.renpy.org/doc/html/license.html
+
+
+
+Special Thanks:
+
+All playtesters who provided valuable feedback.
+
+All artists who generously shared their works on Pixabay.
+
+
+
+3. Legal & Copyright Information
+
+Copyright Notice:
+
+The copyright and all related intellectual property rights of this game, Uncalibrated Girl (including but not limited to its game code, visual art, character designs, story text, and all other content), are exclusively owned by the creator, Kuriame Sunai.
+
+Without the explicit written permission of the creator, no individual or organization is permitted to use the game in whole or in part in any form, including but not limited to reproduction, distribution, modification, decompilation, redistribution, or commercial exploitation.
+
+
+Regarding Fan Creations:
+
+Based on the characters and world of Uncalibrated Girl, the following fan works are permitted: fan art, fan fiction, videos, etc. ✅
+
+Prohibited: Direct Use of Game Assets
+
+The use of actual in-game sprites, backgrounds, CG images, or UI files as assets for other standalone games is strictly prohibited.
+
+Prohibited: Large-Scale Commercialization
+
+Any individual or organization (especially corporate entities) is strictly forbidden from engaging in large-scale, chain-style commercial sales of fan creations (e.g., opening physical stores for mass production and sale of merchandise).
+
+Prohibited: Distortion and Illegal Content
+
+Content that contains illegal material, violence, hate speech, or malicious misrepresentation/defamation of game characters is not permitted.
+
+
+Third-Party Assets:
+
+This game uses the following royalty-free music assets from Pixabay:
+
+31736081-people-background-noise1-33025-320954.mp3
+
+atlasaudio-piano-relaxing-510242.mp3
+
+blackpybeats-peaceful-piano-for-sleep-relax-enjoy-with-cellos-477377.mp3
+
+clavier-music-dreaming-piano-music-329668.mp3
+
+harumachimusic-walk-through-my-garden-423999.mp3
+
+leberch-deep-ocean-313741.mp3
+
+mondamusic-horror-572980.mp3
+
+mondamusic-lullaby-sleep-piano-music-529598.mp3
+
+oxidvideos-light-rain-and-distant-thunder-319234.mp3
+
+paulyudin-calm-cinematic-piano-soft-310219.mp3
+
+paulyudin-piano-music-piano-485929.mp3
+
+saturn-3-music-rockabye-baby-music-box-lullaby-loopable-527146.mp3
+
+sonican-piano-for-story-359191.mp3
+
+sonican-slow-cinematic-piano-emotional-reflections-372403.mp3
+
+tomomi_kato-improvisation_062-321045.mp3
+
+tomomi_kato-sleep-546033.mp3
+
+trenox8-dark-tension-atmosphere-307722.mp3
+
+tunetank-ambient-piano-relaxing-music-347950.mp3
+
+xtremefreddy-disturbing-glitch-monsters-1-157786.mp3
+
+wolff-sfx-wet-squelch-425547
+
+freesound_community-wind-in-the-trees-24035
+
+freesound_community-whispers-14814
+
+alex_jauk-beautiful-wind-chimes-amp-bells-ambience-2-434528
+
+floraphonic-cartoon-slap-2-189831
+
+black_kumizhi-large-reverb-impact-524486
+
+floraphonic-pencil-writing-drawing-loop-3-211894
+
+
+4. Feedback & Contact
+
+Contact Channels:
+
+bilibili：@栗飴すない       UID:3706986262694258
+
+小红书：@栗飴すない      27733832336
+
+
+Players may report bugs or provide suggestions through the above channels.
+
+
+About the Creator:
+
+Cyber milk-tea hamster Kuriami Sunai ⪩. .⪨
+
+Singer, streamer, illustrator, yuri visual novel developer, internet core-art creator, and university student (she/her).
+
+
+5. Version & Update Information
+
+Current Version: 0.1
+
+Demo release.
