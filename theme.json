@@ -654,6 +654,7 @@
         "skip",
         "auto",
         "save",
+        "load",
         "qsave",
         "qload",
         "menu"
@@ -672,7 +673,7 @@
   },
   "info": {
     "name": "无法校准少女",
-    "version": "0.2.7",
+    "version": "0.2.8",
     "autoSave": true,
     "quickSave": true,
     "preload": {
@@ -712,6 +713,6 @@
         "maskDelayMs": 150
       }
     },
-    "changeLog": "- 0.2.7 引擎更新到v0.5.0，加入了按键映射功能"
+    "changeLog": "- 0.2.8 引擎更新到v0.5.1，修复了舞台菜单的bug；替换了一处美术资源"
   }
 }
