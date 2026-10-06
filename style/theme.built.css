@@ -35,6 +35,12 @@
   --slot-aspect: 414 / 309;
   --notify-ypos: 68;
   --skip-ypos: 15;
+  --focus-frame-width: 6px;
+  --focus-frame-color: rgba(255, 255, 255, 0.95);
+  --focus-frame-color-active: rgba(255, 255, 255, 1);
+  --focus-glow: rgba(255, 255, 255, 0.5);
+  --focus-radius: 12px;
+  --focus-transition: 130ms;
   --dialogue-left: 0%;
   --dialogue-bottom: 0%;
   --dialogue-width: 100%;

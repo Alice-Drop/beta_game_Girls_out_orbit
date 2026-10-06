@@ -1,13 +1,15 @@
 # girls_orbit_project —— 《无法校准少女》移植示例
 
-本工程是 aliceADV 引擎的示例项目，把用 Ren'Py 开发的 demo `girls_out_of_orbit` 移植到 aliceADV，用于验证引擎的基础能力，包括对话、背景、立绘、音乐、分支与存档等。
+本工程是 aliceADV 的示例工程：把 Ren'Py 版 demo `girls_out_of_orbit` 移植到 aliceADV 上运行，用来验证引擎的基础能力，包括对话、背景、立绘、音乐、分支与存档等。
+
+移植沿用 aliceADV 与 Ren'Py 一致的部分（素材目录、立绘站位、常见演出语义），其余按本引擎的方式重做：剧本换算成 JSON 指令流（`aliceadv rpy2adv` 可完成大部分映射），界面布局与配色由 demo 的 `gui.rpy` 换算进 `theme.json`（`aliceadv gui2theme` 可完成几何与字号的换算），再逐处调整。
 
 ## 前置条件
 
-需先安装 aliceADV 引擎，参见 `../aliceadv/README.md`。
+普通安装：`pip install aliceadv`。本工程跟随仓库里的引擎源码开发（改模板后需要重新构建才生效），因此在仓库内用可编辑安装：
 
 ```bash
-cd ../aliceadv
+cd ../游戏引擎/aliceadv
 pip install -e .
 ```
 

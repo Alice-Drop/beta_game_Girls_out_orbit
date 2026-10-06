@@ -237,12 +237,12 @@ Music: Royalty-free assets from Pixabay. See “Third-Party Assets” below for 
 
 Tools & License:
 
-This game is created using Ren'Py.
+This web demo is built with aliceADV.
 
-Ren'Py is distributed under a number of open-source licenses, including the MIT License and the GNU Lesser General Public License (LGPL).
+aliceADV is distributed under the MIT License, an open-source license.
 
 For detailed information, please refer to:
-https://www.renpy.org/doc/html/license.html
+https://github.com/Alice-Drop/aliceADV?tab=MIT-1-ov-file
 
 
 
