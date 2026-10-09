@@ -673,7 +673,7 @@
   },
   "info": {
     "name": "无法校准少女",
-    "version": "0.2.8",
+    "version": "0.2.9",
     "autoSave": true,
     "quickSave": true,
     "preload": {
@@ -713,6 +713,6 @@
         "maskDelayMs": 150
       }
     },
-    "changeLog": "- 0.2.8 引擎更新到v0.5.1，修复了舞台菜单的bug；替换了一处美术资源"
+    "changeLog": "- 0.2.9 替换了一处美术资源"
   }
 }
